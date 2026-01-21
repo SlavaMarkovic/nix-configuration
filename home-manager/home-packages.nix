@@ -8,9 +8,12 @@
     spotify
     google-chrome
     telegram-desktop
+    vscodium
 
     # CLI utils
     btop
     fastfetch
+    git
   ];
+
 }
