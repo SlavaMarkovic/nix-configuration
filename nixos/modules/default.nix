@@ -12,5 +12,7 @@
     ./timezone.nix
     ./user.nix
     ./zram.nix
+    ./locale.nix
   ];
+
 }
