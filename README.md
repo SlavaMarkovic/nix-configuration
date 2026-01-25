@@ -48,7 +48,7 @@ nixos-enter --root /mnt -c "passwd slava"
 cd /etc/nixos
 
 # Исправляем ругань гита на права доступа
-git config --global --add safe.directory /etc/nixos
+git config --global --add safe.directory /etc/nixos/nix-configuration
 
 # Разворачиваем Home Manager
 nix run home-manager -- switch --flake .#slava
