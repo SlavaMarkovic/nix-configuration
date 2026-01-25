@@ -13,7 +13,7 @@
     # CLI utils
     btop
     fastfetch
-    git
   ];
 
 }
+
